@@ -1,0 +1,119 @@
+main{
+    width: 100%;
+     height: 100vh;
+     background-color: #eee;
+     background-position: center;
+    background-size: 115%;
+    background-repeat: no-repeat;
+      background-size: 100% 110%;
+      overflow: scroll;
+    
+    animation: image 50s infinite linear;
+    
+  }
+  
+  @keyframes image {
+    0% {
+      background-image: url('/public/image/beachgoa.jpg');
+    }
+    10% {
+      background-image: url('/public/image/AMRITSAR.jpg');
+    }
+    20%{
+        background-image: url('/public/image/jaisalmer.jpg');
+    }
+    30%{
+        background-image: url('/public/image/b5.jpg');
+    }
+    40%{
+        background-image: url('/public/image/b8.jpg');
+    }
+    50%{
+        background-image: url('/public/image/tajmahal.jpg');
+    }
+    60%{
+        background-image: url('/public/image/indiagate.jpg');
+    }
+    70%{
+        background-image: url('/public/image/simla.jpg');
+    }
+    80%{
+        background-image: url('/public/image/b9.jpg');
+    }
+    90%{
+        background-image: url('/public/image/mumbai.jpg');
+    }
+    100%{
+        background-image: url('/public/image/b11.jpg');
+    }
+  }
+  main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ section h3{
+    color: rgb(11, 11, 18);
+    font-size: 80px;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px rgb(48, 182, 121);
+    text-transform: uppercase;
+    
+ 
+ }
+ 
+ 
+ section h1{
+    color: rgb(138, 120, 20);
+    margin: 30px 0px 20px 0px;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px white;
+ }
+ section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 1px black;
+ }
+ section a {
+    
+    padding: 12px 30px;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1px ;
+    background: #fff;
+    color: rgb(213, 37, 107);
+   text-shadow: 5px 0px 0px 2px;
+    
+ 
+ }
+ span1::before{
+    content: "GOA";
+    width: 50%;
+    color: aqua;
+  animation: textchange 50s infinite linear;
+  width: 50%;
+    
+ }
+ @keyframes textchange {
+    0% {content:"GOA";}
+    10%{content: "AMRITSAR";}
+    20%{content: "INDORE";}
+    30%{content: "VISHKHAPATNAM";}
+    40%{content: "MASOORI";}
+    50%{content: "TAJMAHAL";}
+    60%{content: "DELHI";}
+    70%{content: "SHIMLA";}
+    80%{content: "KERALA";}
+    90%{content: "MUMBAI";}
+    100%{content: "HARIDWAR";}
+ 
+ }

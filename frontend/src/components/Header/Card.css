@@ -1,0 +1,50 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main1 {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.cards {
+  width: 20%;
+  background-color: skyblue;
+  border-radius: 5px;
+  margin: 40px;
+  box-shadow: 2px 2px 10px black;
+  display: inline-block;
+}
+.image img {
+  width: 100%;
+}
+.title1 {
+  text-align: center;
+}
+.des {
+  text-align: center;
+}
+.checked {
+  color: yellow;
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+/* span:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+} */

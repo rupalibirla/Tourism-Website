@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sec{
+    width: 100%;
+    min-height: 100vh; 
+    margin-top: 1px;  
+    background-color: rgb(211, 206, 206);
+}
+.con{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.con-sec{
+    float: left;
+    width: 55%;
+}
+.image-sec{
+    float: right;
+    width: 40%;
+}
+.image-sec img{
+    width: 100%;
+    height:auto;
+}
+.con-sec.title2{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.con-sec.con h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+    
+}
+.con-sec.con p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.con-sec.con.butt a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.con-sec.con.butt a:hover{
+    background-color: white;
+    color:black;
+
+}
+.con-sec.social{
+    margin-top: 40px 40px;
+
+}
+.con-sec.social i{
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+
+}
+.con-sec.social i:hover{
+    color: #3d3d3d;
+}
+@media screen and (max-width:768px) {
+    .con{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .con-sec{
+        float:none;
+        width: 100%;
+        display: block;
+        margin: auto;
+
+    }
+    .image-sec{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .con-sec.title{
+        text-align: center;
+      font-size: 19px;
+  }
+
+}
